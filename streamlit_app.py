@@ -9,22 +9,8 @@ Original file is located at
 
 #@title Init
 import streamlit as st
-from datetime import date
-import cv2
 import csv
 from matplotlib import pyplot as plt
-import numpy as np
-import os
-import statistics
-import math
-import seaborn as sns
-import glob
-from PIL import Image
-from subprocess import check_output
-import matplotlib.patches as mpatches
-import statistics
-from functools import lru_cache as cache
-from numpy import inf
 import warnings
 warnings.filterwarnings('ignore')
 st.set_page_config(layout="wide")
